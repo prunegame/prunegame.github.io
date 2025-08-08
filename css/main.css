@@ -35,7 +35,7 @@ a:hover {color: #ccc; text-decoration: none;}
 #links a:hover {color: #ccc; text-decoration: none;}
 
 #badges {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
     margin-bottom: 50px;
     text-align: center;
@@ -196,6 +196,37 @@ a.amazon:hover {
     opacity: 0.75;
 }
 a.amazon:active {
+    top:2px;
+    opacity: 0.75;
+
+    -webkit-transition:all 0.1s;
+    -moz-transition:all 0.1s;
+    -o-transition:all 0.1s;
+    transition:all 0.1s;
+}
+
+
+a.steam {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+    width: 200px;
+    height: 59px;
+    overflow: hidden;
+    background-image: url("../img/steam.png");
+    background-size: 200px 59px;
+    opacity: 1.0;
+
+    -webkit-transition:all 0.3s;
+    -moz-transition:all 0.3s;
+    -o-transition:all 0.3s;
+    transition:all 0.3s;
+}
+a.steam:hover {
+    top:-1px;
+    opacity: 0.75;
+}
+a.steam:active {
     top:2px;
     opacity: 0.75;
 
